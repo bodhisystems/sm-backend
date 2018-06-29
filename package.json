@@ -1,0 +1,19 @@
+{
+  "name": "api-smhello",
+  "version": "1.0.0",
+  "description": "Backend for smhello",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodhisystems/sm-backend.git"
+  },
+  "author": "Subash Maharjan <subashm@bodhisystems.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bodhisystems/sm-backend/issues"
+  },
+  "homepage": "https://github.com/bodhisystems/sm-backend#readme"
+}
