@@ -1,0 +1,97 @@
+{
+  "request_type": "quote",
+  "policy_type": "homeowners",
+  "shopperUuid": "Z1234543234323TG",
+  "carriers": [
+    "Safeco"
+  ],
+  "effective_date": "2018-03-01",
+  "coverages": [
+    {
+      "type": "Personal Liability",
+      "limit": 100000
+    }
+  ],
+  "primary_applicant": {
+    "first_name": "Test",
+    "last_name": "CoverHound",
+    "birth_date": "1965-11-09",
+    "email": "test@coverhound.com",
+    "marital": "Married",
+    "career": {
+      "status": "Employed",
+      "occupation": "Director",
+      "industry": "Program"
+    }
+  },
+  "co_applicant": {
+    "first_name": "TestTest",
+    "last_name": "CoverHound",
+    "birth_date": "1965-05-24",
+    "gender": "F",
+    "marital": "Married",
+    "relationship": "Spouse",
+    "career": {
+      "status": "Employed",
+      "occupation": "Director",
+      "industry": "Program"
+    }
+  },
+  "dwelling": {
+    "street_address": "2024 E Charleston Ave",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip": "85022"
+  },
+  "questions": {
+    "policy_type": "homeowners",
+    "first_time_home_buyer": true,
+    "has_dogs": true,
+    "dog_has_bitten": false,
+    "dog_breed": "Other",
+    "has_pool": false,
+    "pool_in_ground": false,
+    "pool_is_fenced": false,
+    "build_year": 2010,
+    "purchase_date": "2010-10-05",
+    "square_footage": 1800,
+    "num_residents": 5,
+    "within_1000_feet_of_fire_hydrant": true,
+    "gated_community": false,
+    "has_burglar_alarm": true,
+    "sprinkler_system": false,
+    "roof_type": "Shingles",
+    "roof_material": "Composition",
+    "roof_shape": "Gable",
+    "roofing_update_year": 2010,
+    "wall_construction": "Brick",
+    "siding_type": "Wood",
+    "behind_siding_type": "Frame",
+    "num_stories": 2,
+    "num_sides": 4,
+    "num_bathrooms": 2,
+    "plumbing_update_year": "2010",
+    "heating_source": "Other",
+    "heating_system": "Other",
+    "heating_update_year": "2010",
+    "electrical_update_year": 2010,
+    "foundation_type": "Slab",
+    "basement_completion": "Complete",
+    "ceiling_height": 11,
+    "entryway_raised_ceiling": false,
+    "flooring_type_1": "Carpet - Standard",
+    "garage_type": "Attached",
+    "garage_size": 4
+  },
+  "prior_policy": {
+    "carrier": "Farmers",
+    "claims": false
+  },
+  "lender": {
+    "name": "Lending Bank",
+    "street_address": "246 Main St",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94112"
+  }
+}

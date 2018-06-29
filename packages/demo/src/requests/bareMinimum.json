@@ -1,0 +1,60 @@
+{
+  "request_type": "quote",
+  "policy_type": "homeowners",
+  "carriers": [
+    "ASI",
+    "QBE",
+    "Safeco",
+    "CSE",
+    "MAPFRE",
+    "Pacific Specialty",
+    "Stillwater (Home)"
+  ],
+  "effective_date": "2017-03-01",
+  "coverages": [
+    {
+      "type": "Personal Liability",
+      "limit": 100000
+    },
+    {
+      "type": "Medical Payments",
+      "limit": 3000
+    },
+    {
+      "type": "Deductible",
+      "limit": 1000
+    }
+  ],
+  "primary_applicant": {
+    "first_name": "Test",
+    "last_name": "CoverHound",
+    "birth_date": "1965-11-09",
+    "email": "test@coverhound.com",
+    "marital": "Married",
+    "career": {
+      "status": "Employed",
+      "occupation": "Engineer",
+      "industry": "Engineer/Architect/Science/Math"
+    }
+  },
+  "dwelling": {
+    "street_address": "8717 HEELY CT",
+    "city": "BAKERSFIELD",
+    "state": "CA",
+    "zip": "93311"
+  },
+  "questions": {
+    "policy_type": "homeowners",
+    "purchase_date": "2010-10-05"
+  },
+  "prior_policy": {
+    "claims": false
+  },
+  "lender": {
+    "name": "Iron Bank of Braavos",
+    "street_address": "Iron Bank",
+    "city": "Braavos",
+    "state": "CA",
+    "zip": "09132"
+  }
+}
