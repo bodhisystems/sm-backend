@@ -1,5 +1,23 @@
 {
-	"devDependencies": {
-		"lerna": "^2.11.0"
-	}
+  "scripts": {
+    "kinesalite": "babel-node bin/kinesalite.js",
+    "dynalite": "babel-node bin/dynalite.js",
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap",
+    "updated": "lerna updated",
+    "precommit": "lerna run precommit",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "deploy:development": "lerna run deploy:development"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.266.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dynalite": "^1.3.1",
+    "es6-promisify": "^6.0.0",
+    "husky": "^0.14.3",
+    "kinesalite": "^1.14.0",
+    "lerna": "^2.11.0"
+  }
 }
